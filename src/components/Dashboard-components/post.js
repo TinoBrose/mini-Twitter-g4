@@ -66,7 +66,7 @@ export default function Post(props) {
             </Avatar>
             }
             action={
-            <IconButton aria-label="settings">
+            <IconButton color="primary" aria-label="settings">
                 <MoreVertIcon />
             </IconButton>
             }
@@ -86,10 +86,10 @@ export default function Post(props) {
         </CardContent>
         <CardActions disableSpacing>
             <IconButton aria-label="add to favorites">
-            <FavoriteIcon />
+            <FavoriteIcon color="primary"/>
             </IconButton>
             <IconButton aria-label="share">
-            <ShareIcon />
+            <ShareIcon color="primary"/>
             </IconButton>
             <IconButton
             className={clsx(classes.expand, {
@@ -98,6 +98,7 @@ export default function Post(props) {
             onClick={handleExpandClick}
             aria-expanded={expanded}
             aria-label="show more"
+            color="primary"
             >
             
             </IconButton>
