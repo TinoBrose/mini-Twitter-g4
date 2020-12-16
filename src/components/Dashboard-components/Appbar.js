@@ -165,11 +165,11 @@ export default function PrimarySearchAppBar() {
 
   return (
     <div className={classes.grow}>
-      <AppBar position="static">
+      <AppBar color="secondary" position="static">
         <Toolbar>
           
           <Typography className={classes.title} variant="h6" noWrap>
-            {"   "} Twitter
+            {"   "} 
           </Typography>
           <div className={classes.search}>
             <div className={classes.searchIcon}>
